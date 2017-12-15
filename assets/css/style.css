@@ -1,0 +1,315 @@
+h1,h2,{
+	font-family: 'oswald', sans-serif;
+	font-weight: lighter;
+}
+h4{font-family: 'poppins',sans-serif;
+}
+
+p{
+	font-family: 'poppins',sans-serif;
+	font-size: 1em;
+}
+.full-content{
+	background-color: #f2f2f2;
+	overflow: auto;
+	padding: 80px 0 150px 0;
+}
+#particles-js{
+	position: ;
+}
+
+.title-content{
+	position: absolute;
+	text-align: center;
+}
+.title-content img{
+	width: 60%;
+}
+.title h1{
+	text-align: center;
+	margin-bottom: 80px;
+	cursor: pointer;
+	font-family: 'oswald', sans-serif;
+	font-size: 50px;
+}
+.title hr{
+	width: 50px;
+	height: 2px;
+	background-color: #3399ff;
+}
+
+.images{
+	text-align: center;
+	transition: all .3s ease-in-out; 
+	transition: 0.2s;
+}
+
+.images img{
+	width: 100%;
+}
+.images:hover img{
+	filter: grayscale(0.3);
+}
+.images:hover .icon{
+	opacity: 1;
+	transition: all .3s ease-in-out;
+}
+.icon{
+	font-size: 1em;
+	color: #888;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+}
+.fullcontent{
+	padding-bottom: 50px;
+	position: relative;
+	z-index: 222;
+}
+.fullcontent:before{
+	content: '';
+	position: absolute;
+	height: 300px;
+	transform: skewY(-5deg);
+	background-color: #fff;
+	top: -100px;
+	width: 100%;
+	border-top: 1px solid #f2f2f2;
+	z-index: -1;
+
+}
+.fullcontent:after{
+	content: '';
+	position: absolute;
+	height: 300px;
+	transform: skewY(5deg);
+	background-color: #fff;
+	bottom: -100px;
+	width: 100%;
+	z-index: -1;
+
+}
+.fullcontent-white{
+	padding: 180px 0 100px 0;
+	background: #f2f2f2;
+}
+article {
+ 	column-count: 3;
+ 	column-gap: 0.5em;   
+ 	padding-bottom: 150px;
+}
+
+section {
+ 	display: inline-block;
+ 	margin:  0.25rem;
+ 	width:  100%;
+}
+section img{
+	width: 100%;
+}
+.hov{
+	position: relative;
+}
+.hover{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	color: #fff;
+	visibility: hidden;
+	transition: all .3s ease-in-out;
+	background-color: rgba(0,0,0,.5);
+}
+.hov:hover .hover{
+	opacity: 1;
+	visibility: visible;
+	transition: all .3s ease-in-out;
+}
+.wrap{
+	padding-bottom: 50px;
+}
+.progress{
+	height: 13px;
+	background-color: #f7f7f7;
+}
+.progress-bar{
+	background-color: #3399ff;
+}
+.quote{
+	background: ;
+	background: url(../image/startup.png) fixed;
+	background-size: cover;
+}
+.filter{
+	background: rgba(0, 0, 0, 0.61);
+	padding: 200px 0 200px 0;
+}
+.sign{
+	text-align: center;
+	padding-bottom: 50px;
+}
+.sign img{
+	height: 55px;
+}
+.said{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+}
+.fullcontent-last{
+	position: relative;
+	z-index: 123;
+}
+.fullcontent-last::before{
+	content: '';
+	position: absolute;
+	height: 300px;
+	transform: skewY(-5deg);
+	background-color: #fff;
+	top: -100px;
+	width: 100%;
+	z-index: -1;	
+}
+.address{
+	background-color: #212121;
+}
+.sample{
+	background-color: #f2f2f2;
+}
+
+.modify{
+	border: 0;
+	border-bottom: 1.5px solid #999;
+	background-color: transparent;
+	padding: 0;
+	font-size: 1.1rem;
+	font-family: 'poppins',sans-serif;
+	transition: 0.3s;
+}
+.modify:focus{
+    border-color: #3399ff;
+    box-shadow: none;
+    border-bottom: 1.5px solid #3399ff;
+    background-color: transparent;
+}
+footer{
+	background-color: #212121;
+}
+.social-item{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background-color: #fff;
+	position: relative;
+}
+.for{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #111;
+	font-size: 1em !important;
+}/*.fa display inline-block has removed by me from fnt-awesome.min.css hehehe*/
+
+.social-item:hover{
+	filter: invert(1);
+	transition: all 0.2s ease-in;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 9999;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+#myBtn:focus {
+  background-color: #555;
+}
+
+@media screen and (max-width: 990px){
+	article {
+ 		column-count: 2;
+ 	}
+ 	.title-content img{
+		width: 70%;
+	}
+
+}
+@media screen and (max-width: 576px){
+	.modal {
+	  text-align: center;
+	  padding: 0!important;
+
+	}
+	.modal:before {
+	  content: '';
+	  display: inline-block;
+	  height: auto;/*pooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooop*/
+	  vertical-align: top;
+	  
+  }
+  .modal-dialog {
+	  text-align: left;
+	  vertical-align: top;
+	}
+	.title h1{
+		margin-bottom: 50px; 
+		font-size: 40px;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-width: 480px){
+	article {
+ 		column-count: 1;
+ 	}
+ 	.title-content img{
+		width: 80%;
+	}
+
+}
